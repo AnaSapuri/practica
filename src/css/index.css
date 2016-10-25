@@ -96,6 +96,16 @@ body, html {
 	flex-direction: column;
 	justify-content: center;
 	color: #FFFFFF;
+	margin-left: 60px;
+}
+
+.banner-text-tittle {
+	font-size: 2.12em;
+}
+
+.banner-text-text{
+	font-size: 1.12em;
+
 }
 
 .banner-text-contentButtons {
@@ -103,9 +113,19 @@ body, html {
 }
 
 .banner-text-contentButtons .button{
-	margin:0 10px;
+	margin-right: 8px;
+	padding: 18px 61px;
+	color: #006699;
+	font-size: 1.06em;
 }
 
 .banner-text-contentLinks {
 	display: flex;;
+}
+
+.banner-text-contentLinks .link {
+	margin-right: 8px;
+	padding: 18px 4px;
+	color: #FFFFFF;
+	font-size: 1.25em;
 }
