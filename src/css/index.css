@@ -207,6 +207,7 @@ body, html {
 .card {
 	display: flex;
 	border: 1px solid #eeeeee;
+	width: 48%;
 }
 
 .card-img img {
