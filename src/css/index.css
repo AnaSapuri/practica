@@ -180,3 +180,17 @@ body, html {
 	border: 1px solid #000000;
 	color: #000000;
 }
+
+.customers {
+	margin: 50px 0;
+}
+
+.customers-tittle {
+	text-align: center;
+	font-size: 1.50em;
+}
+
+.customers-contentImages {
+	display: flex;
+	justify-content: space-around;
+}
