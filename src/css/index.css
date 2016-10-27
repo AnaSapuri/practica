@@ -280,3 +280,95 @@ body, html {
 	border: 1px solid #000000;
 	color: #000000;
 }
+
+/*FOOTER*/
+
+.footer {
+
+}
+
+/*FOOTER COLS*/
+
+.footer-contentCols {
+	display: flex;
+	justify-content: space-between;
+	background-color: #FAFAFA;
+}
+
+.footer-contentCols-col {
+	padding: 0 30px 50px;
+
+
+}
+
+.footer-contentCols-col .tittle {
+	color: #1F4F82;
+	margin-bottom: 30px;
+}
+
+.footer-contentCols-col .list {
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+
+.footer-contentCols-col .list-item {
+	margin: 0 0 15px;
+}
+
+.footer-contentCols-col .list-item-link {
+	text-decoration: none;
+	font-size: 0.88em;
+	color: #7a7a7a;
+}
+
+/*FOOTER BOTTOM*/
+
+.footer-contentBottom {
+	position: relative;
+}
+
+.footer-contentBottom-tittle {
+	font-size: 1.25em;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+.footer-contentBottom-tittle span {
+	color: #F80000;
+}
+
+.footer-contentBottom-listLinks {
+	list-style: none;
+	margin:0;
+	padding: 0;
+	font-size: 0.69em;
+
+}
+
+.footer-contentBottom-listLinks .item {
+	display: inline-block;
+}
+
+.footer-contentBottom-listLinks .item-link {
+	text-decoration: none;
+	color: #000000;
+}
+
+.footer-contentBottom-listSocial {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.footer-contentBottom-listSocial .item {
+	display: inline-block;
+} 
+
+.footer-contentBottom-listSocial .item-link {
+	text-decoration: none;
+	padding: 10px;
+}
