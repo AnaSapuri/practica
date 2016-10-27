@@ -181,6 +181,8 @@ body, html {
 	color: #000000;
 }
 
+
+/*CUSTOMERS*/
 .customers {
 	margin: 50px 0;
 }
@@ -208,6 +210,7 @@ body, html {
 	display: flex;
 	border: 1px solid #eeeeee;
 	width: 48%;
+	background-color: #FFFFFF;
 }
 
 .card-img img {
@@ -229,4 +232,51 @@ body, html {
 .card-text-link {
 	font-size: 0.88em;
 	text-decoration: none;
+}
+
+/*PLANNING*/
+
+.planning {
+	background-color: #fafafa;
+	padding: 60px 30px;
+}
+.planning-content {
+	display: flex;
+}
+
+.planning-content-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.planning-content-text  .tittle{
+	font-size: 1.75em;
+}
+
+
+.planning-content-text .list {
+	list-style: none;
+}
+
+.planning-content-text .item {
+	margin: 0 0 25px;
+}
+
+.planning--contentButtons {
+	display: flex;
+	justify-content: center;
+}
+
+.planning-contentButtons .button {
+	padding: 18px 61px;
+	margin: 10px;
+	border: 1px solid #006699;
+	color: #006699;
+	background: transparent;
+}
+
+.planning-contentButtons .button:hover {
+	border: 1px solid #000000;
+	color: #000000;
 }
